@@ -9,7 +9,6 @@
 }
 
 html {
-    background-color: antiquewhite;
     color: #555555;
     font-family: "Lato", "Arial", sans-serif;
     font-size: 20px;
@@ -30,6 +29,10 @@ section {
     padding: 80px 0;
 }
 
+.box {
+    padding: 1%;
+}
+
 /* paragraphs */
 
 .long-copy {
@@ -40,13 +43,18 @@ section {
     margin-left: 15%;
 }
 
+.box p{
+    font-size: 90%;
+    line-height: 145%;
+}
+
 /* Headings */
 
 h1, 
-h2 {    
+h2, 
+h3 {    
     font-weight: 300;
     text-transform: uppercase;
-    letter-spacing: 1px;
 }
 
 h1 {
@@ -55,6 +63,7 @@ h1 {
     color: #ffffff;
     font-size: 240%;
     word-spacing: 4px;
+    letter-spacing: 1px;
 }
 
 h2 {
@@ -62,6 +71,7 @@ h2 {
     word-spacing: 2px;
     text-align: center;
     margin-bottom: 30px;
+    letter-spacing: 1px;
 }
 
 h2::after {
@@ -71,6 +81,11 @@ h2::after {
     content: " ";
     width: 100px;
     margin: 30px auto;
+}
+
+h3 {
+    font-size: 110%;
+    margin-bottom: 15px;
 }
 
 /* ------------------------------- */
